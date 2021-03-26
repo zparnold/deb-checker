@@ -1,6 +1,9 @@
 # Deb Checker
 Checks a return delimited list of CVE's for whether or not they are still vulnerable in a base debian distro
 
+## Downloading
+Check out the releases page of our repo
+
 # Usage
 ```
 ./deb-checker -n file.txt -d stretch
@@ -18,3 +21,9 @@ CVE-2019-1010023
 CVE-2013-4235
 CVE-2017-3142
 ```
+
+## To dev
+* Check out the code
+* Use go mod to restore deps
+* Do work
+* Submit PR
